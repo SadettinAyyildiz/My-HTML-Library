@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="html tables, tables, html tables tutorial" />
+    <meta name="viewport" content="About html tables." />
+    <title>Tables</title>
+  </head>
+  <body>
+    <table border="1" width="60%">  <!--border ile tabloya çizgi ekleniyor-->
+      <thead>
+        <tr>
+          <th>Kurs Adı</th>
+          <th>Kurs Saati</th>
+          <th>Ders Adedi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!--Table row-->
+        <tr>
+          <!--Table data-->
+          <td>Komple web geliştirme eğitimi</td>
+          <td>45 saat</td>
+          <td>300 adet</td>
+        </tr>
+        <tr>
+            <td>Komple web geliştirme eğitimi</td>
+            <td>45 saat</td>
+            <td rowspan="2">300 adet</td> <!--rowspan 2 : iki sütunu kaplasın demek-->
+          </tr>
+        <tr>
+          <td>Core 2 MVC eğitimi</td>
+          <td>30 saat</td>
+        </tr>
+        <tr>
+            <td colspan="3">Core 2 MVC eğitimi</td>  <!--collspan 3 : üç sütunu da kaplasın demek-->
+            
+          </tr>
+          
+      </tbody>
+    </table>
+  </body>
+</html>
